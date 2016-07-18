@@ -14,3 +14,5 @@ VOLUME /opt/sonar/logs/
 
 ENTRYPOINT ["/app/init"]
 CMD ["app:start"]
+
+EXPOSE 9000
